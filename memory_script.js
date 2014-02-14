@@ -106,11 +106,12 @@
   "Love",
   "Hugs",
   "Kisses",
-  "Be Mine",
+  "B Mine",
   "Sweetie",
-  "Hot Stuff",
+  "Hottie",
   "<3",
-  "XOXO"
+  "XOXO",
+  ";)"
   ];
   
   Board.prototype.randomMessage = function() {
