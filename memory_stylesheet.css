@@ -1,0 +1,22 @@
+#board {
+}
+
+.cell {
+  background-image: url("images/heart_candy.png");
+  width: 100px;
+  height: 100px;
+  float: left;
+/*  border: 1px solid black;*/
+}
+
+.message {
+  vertical-align: middle;
+  font-size: 1.25em;
+  text-align: center;
+  color: #fee; 
+  line-height:4em;
+}
+
+.row {
+  clear: both;
+}

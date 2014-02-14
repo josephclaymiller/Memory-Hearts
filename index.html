@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Memory</title>
+
+  <link rel="stylesheet" type="text/css" href="memory_stylesheet.css"/>
+  
+  <script type="text/javascript" src="jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="underscore.js"></script>
+  <script type="text/javascript" src="memory_script.js"></script>
+  <script type="text/javascript" src="memory_ui_script.js"></script>
+</head>
+
+<body>
+  <div id="score">
+  </div>
+  <div id="board">
+  </div>
+  <script>
+    $(function () { 
+      var game = new MemoryGame.View($("#board"));
+      game.start();      
+    });
+  </script>
+</body>
+</html>
